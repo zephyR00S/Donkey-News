@@ -1,0 +1,17 @@
+.my-3 .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+ /* Start with no shadow */
+    transition: box-shadow 2s ease; /* Apply transition effect */
+  }
+  
+  .my-3:hover .card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.33); /* Apply shadow on hover */
+  }
+
+  h1.text-center.fw-bold.italic {
+  font-family: "Merriweather", serif !important;
+  font-size: 2.5rem !important;
+  color: #444 !important;
+  margin: 35px 0 !important;
+  transition: color 2s ease !important;
+}
